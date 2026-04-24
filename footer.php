@@ -1,83 +1,81 @@
-<footer class="bg-success text-white pt-5">
+<footer style="background:#53b848; color:white; font-family:Arial;">
 
-    <div class="container">
+    <div style="max-width:1200px; margin:auto; padding:50px 20px;">
 
-        <div class="row g-4">
+        <div style="
+            display:grid;
+            grid-template-columns:2fr 2fr 2fr 2fr;
+            gap:30px;
+        ">
 
             <!-- CỘT 1 -->
-            <div class="col-md-3">
-                <h5 class="fw-bold">
-                    Công ty TNHH TM & XD<br>Cảnh Quan Xanh
-                </h5>
+            <div>
+                <h3 style="margin-bottom:15px;">
+                    Công ty TNHH Thương mại <br>
+                    và Xây dựng Cảnh Quan Xanh
+                </h3>
 
-                <p class="mb-1">Chuyên thiết kế thi công sân vườn</p>
-                <p>Giải pháp cảnh quan chuyên nghiệp</p>
+                <p>Chuyên thiết kế thi công sân vườn –</p>
+                <p>Giải pháp cảnh quan sân vườn</p>
 
-                <p class="mt-3">
-                    <i class="fa-solid fa-location-dot"></i>
-                    510D Nguyễn Văn Linh, Hải Phòng
+                <p style="margin-top:10px;">
+                    📍 Địa chỉ: Số 510D Nguyễn Văn Linh,<br>
+                    Vĩnh Niệm, Lê Chân, Hải Phòng
                 </p>
 
                 <p>
-                    <i class="fa-solid fa-phone"></i>
-                    076.871.4286 - 0356.056.518
+                    📞 Hotline: 076.871.4286 - 0356.056.518
                 </p>
             </div>
 
             <!-- CỘT 2 -->
-            <div class="col-md-3">
-                <h5 class="fw-bold">Hệ thống</h5>
+            <div>
+                <h3 style="margin-bottom:15px;">Hệ thống của chúng tôi</h3>
 
-                <p>
-                    🌐 <a href="#" class="text-white text-decoration-none">tieucanhxanh.com</a><br>
-                    <small>(Thi công sân vườn)</small>
-                </p>
+                <p>🌐 tieucanhxanh.com</p>
+                <p>(thiết kế thi công tiểu cảnh sân vườn)</p>
 
-                <p>
-                    🌐 <a href="#" class="text-white text-decoration-none">hocakhoihaiphong.com</a><br>
-                    <small>(Hồ cá Koi)</small>
-                </p>
+                <p style="margin-top:10px;">🌐 hocakhoihaiphong.com</p>
+                <p>(thiết kế, thi công, tư vấn hồ cá Koi)</p>
 
-                <p>
-                    🌐 <a href="#" class="text-white text-decoration-none">datrangtrip.com</a><br>
-                    <small>(Vật liệu sân vườn)</small>
-                </p>
+                <p style="margin-top:10px;">🌐 datrangtrip.com</p>
+                <p>(cung cấp vật liệu sân vườn)</p>
             </div>
 
             <!-- CỘT 3 -->
-            <div class="col-md-3">
-                <h5 class="fw-bold">Sản phẩm</h5>
+            <div>
+                <h3 style="margin-bottom:15px;">Sản phẩm của chúng tôi</h3>
 
-                <ul class="list-unstyled">
-                    <li><a href="/sanpham/sanvuon.php" class="text-white text-decoration-none">Cảnh quan sân vườn</a></li>
-                    <li><a href="/sanpham/lunuoc.php" class="text-white text-decoration-none">Lu phong thủy</a></li>
-                    <li><a href="/sanpham/chauximang.php" class="text-white text-decoration-none">Chậu xi măng</a></li>
-                    <li><a href="/sanpham/vatlieu.php" class="text-white text-decoration-none">Vật liệu</a></li>
-                    <li><a href="/sanpham/hocakoi.php" class="text-white text-decoration-none">Hồ cá Koi</a></li>
-                    <li><a href="/sanpham/denda.php" class="text-white text-decoration-none">Đèn đá</a></li>
-                </ul>
+                <p>Cảnh quan sân vườn</p>
+                <p>Lu nước phong thủy</p>
+                <p>Chậu xi măng đá mài</p>
+                <p>Vật liệu sân vườn</p>
+                <p>Thi công hồ cá Koi</p>
+                <p>Đèn đá sân vườn</p>
             </div>
 
-            <!-- CỘT 4 -->
-            <div class="col-md-3">
-                <h5 class="fw-bold">Bản đồ</h5>
+            <!-- CỘT 4 (MAP) -->
+            <div>
+                <h3 style="margin-bottom:15px;">Bản đồ chỉ đường</h3>
 
-                <div class="ratio ratio-4x3">
-                    <iframe 
-                        src="https://www.google.com/maps?q=510 Nguyễn Văn Linh Hải Phòng&output=embed"
-                        style="border:0;" allowfullscreen>
-                    </iframe>
-                </div>
+                <iframe 
+                    src="https://www.google.com/maps?q=510 Nguyễn Văn Linh Hải Phòng&output=embed"
+                    width="100%" height="200"
+                    style="border:0; border-radius:10px;">
+                </iframe>
             </div>
 
         </div>
 
         <!-- LINE -->
-        <hr class="border-light my-4">
+        <div style="
+            border-top:1px solid rgba(255,255,255,0.3);
+            margin:30px 0 15px;
+        "></div>
 
         <!-- COPYRIGHT -->
-        <div class="text-center pb-3">
-            © 2025 Cảnh Quan Xanh. All rights reserved.
+        <div style="text-align:center;">
+            Copyright 2025 ©
         </div>
 
     </div>
