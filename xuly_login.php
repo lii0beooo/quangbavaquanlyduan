@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'CSDL/config.php';
+include 'config.php';
 
 if (isset($_POST['username']) && isset($_POST['password'])) {
     $username = trim($_POST['username']);
@@ -22,10 +22,10 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 
             // Điều hướng dựa trên maQuyen
             switch ($user['maQuyen']) {
-                case 1: header("Location: TrangChinh.php"); break;
+                case 1: header("Location: admin.php"); break;
                 case 2: header("Location: qlda.php"); break;
-                case 3: header("Location: NVQL-Website.php"); break;
-                case 4: header("Location: TrangKhachHang.php"); break;
+                case 3: header("Location: qlwebsite.php"); break;
+                case 4: header("Location: doitac.php"); break;
                 default: echo "Không có quyền truy cập!"; break;
             }
             exit();
