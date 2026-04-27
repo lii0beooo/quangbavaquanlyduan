@@ -2,14 +2,9 @@
 session_start();
 include 'config.php';
 // CHƯA LOGIN
-if(!isset($_SESSION['username'])){
-    header("location: Login.php");
-    exit;
-}
-// CHẶN KHÔNG ĐÚNG QUYỀN
-if(!isset($_SESSION['maQuyen']) || $_SESSION['maQuyen'] != 3){
-    header("location: login.php");
-    exit;
+if (!isset($_SESSION['username']) || $_SESSION['maQuyen'] !=3) {
+    header("Location: login.php");
+    exit();
 }
 ?>
 <!DOCTYPE html>
