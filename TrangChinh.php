@@ -1,7 +1,7 @@
 <?php
 session_start();
 include 'CSDL/config.php';
-if (!isset($_SESSION['username'])) {
+if (!isset($_SESSION['username']) || $_SESSION['maQuyen'] != 1 ) {
     header("Location: login.php");
     exit();
 }
