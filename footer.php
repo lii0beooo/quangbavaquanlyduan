@@ -1,83 +1,78 @@
-<footer style="background:#53b848; color:white; font-family:Arial;">
+<footer class="bg-success text-white pt-5">
 
-    <div style="max-width:1200px; margin:auto; padding:50px 20px;">
+<div class="container">
 
-        <div style="
-            display:grid;
-            grid-template-columns:2fr 2fr 2fr 2fr;
-            gap:30px;
-        ">
+    <div class="row g-4">
 
-            <!-- CỘT 1 -->
-            <div>
-                <h3 style="margin-bottom:15px;">
-                    Công ty TNHH Thương mại <br>
-                    và Xây dựng Cảnh Quan Xanh
-                </h3>
+        <!-- CỘT 1 -->
+        <div class="col-md-3">
+            <h5 class="fw-bold mb-3">
+                Cảnh Quan Xanh
+            </h5>
+            
+            <p class="small mb-2">Thiết kế & thi công sân vườn</p>
+            <p class="small">Giải pháp cảnh quan chuyên nghiệp</p>
+        
+            <p class="mt-3 mb-1">
+                <i class="fa-solid fa-location-dot me-2"></i>
+                510D Nguyễn Văn Linh, Hải Phòng
+            </p>
 
-                <p>Chuyên thiết kế thi công sân vườn –</p>
-                <p>Giải pháp cảnh quan sân vườn</p>
-
-                <p style="margin-top:10px;">
-                    📍 Địa chỉ: Số 510D Nguyễn Văn Linh,<br>
-                    Vĩnh Niệm, Lê Chân, Hải Phòng
-                </p>
-
-                <p>
-                    📞 Hotline: 076.871.4286 - 0356.056.518
-                </p>
-            </div>
-
-            <!-- CỘT 2 -->
-            <div>
-                <h3 style="margin-bottom:15px;">Hệ thống của chúng tôi</h3>
-
-                <p>🌐 tieucanhxanh.com</p>
-                <p>(thiết kế thi công tiểu cảnh sân vườn)</p>
-
-                <p style="margin-top:10px;">🌐 hocakhoihaiphong.com</p>
-                <p>(thiết kế, thi công, tư vấn hồ cá Koi)</p>
-
-                <p style="margin-top:10px;">🌐 datrangtrip.com</p>
-                <p>(cung cấp vật liệu sân vườn)</p>
-            </div>
-
-            <!-- CỘT 3 -->
-            <div>
-                <h3 style="margin-bottom:15px;">Sản phẩm của chúng tôi</h3>
-
-                <p>Cảnh quan sân vườn</p>
-                <p>Lu nước phong thủy</p>
-                <p>Chậu xi măng đá mài</p>
-                <p>Vật liệu sân vườn</p>
-                <p>Thi công hồ cá Koi</p>
-                <p>Đèn đá sân vườn</p>
-            </div>
-
-            <!-- CỘT 4 (MAP) -->
-            <div>
-                <h3 style="margin-bottom:15px;">Bản đồ chỉ đường</h3>
-
-                <iframe 
-                    src="https://www.google.com/maps?q=510 Nguyễn Văn Linh Hải Phòng&output=embed"
-                    width="100%" height="200"
-                    style="border:0; border-radius:10px;">
-                </iframe>
-            </div>
-
+            <p>
+                <i class="fa-solid fa-phone me-2"></i>
+                076.871.4286
+            </p>
         </div>
 
-        <!-- LINE -->
-        <div style="
-            border-top:1px solid rgba(255,255,255,0.3);
-            margin:30px 0 15px;
-        "></div>
+        <!-- CỘT 2 -->
+   <div class="col-md-3 ">
+    <h5 class="fw-bold mb-3">Kết nối</h5>
+    <a href="https://facebook.com" target="_blank"
+       class="d-block text-white text-decoration-none mb-2">
+        <i class="fa-brands fa-facebook"></i> Facebook
+    </a>
+    <a href="https://zalo.me" target="_blank"
+       class="d-block text-white text-decoration-none mb-2">
+        <i class="fa-solid fa-comment"></i> Zalo
+    </a>
+</div>
 
-        <!-- COPYRIGHT -->
-        <div style="text-align:center;">
-            Copyright 2025 ©
+        <!-- CỘT 3 -->
+        <div class="col-md-3">
+            <h5 class="fw-bold mb-3">Sản phẩm</h5>
+
+            <ul class="list-unstyled small">
+                <li><a href="#" class="text-white text-decoration-none">Cảnh quan sân vườn</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Lu phong thủy</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Chậu xi măng</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Vật liệu</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Hồ cá Koi</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Đèn đá</a></li>
+            </ul>
+        </div>
+
+        <!-- CỘT 4 -->
+        <div class="col-md-3">
+            <h5 class="fw-bold mb-3">Bản đồ</h5>
+
+            <div class="ratio ratio-4x3 rounded overflow-hidden">
+                <iframe 
+                    src="https://www.google.com/maps?q=510 Nguyễn Văn Linh Hải Phòng&output=embed"
+                    style="border:0;" allowfullscreen>
+                </iframe>
+            </div>
         </div>
 
     </div>
+
+    <!-- LINE -->
+    <hr class="border-light my-4">
+
+    <!-- COPYRIGHT -->
+    <div class="text-center small pb-3">
+        © 2025 Cảnh Quan Xanh. All rights reserved.
+    </div>
+
+</div>
 
 </footer>
